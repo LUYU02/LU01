@@ -1,0 +1,124 @@
+/* 列表页专属的样式 */
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    padding-left: 14px;
+    padding-top: 3px;
+    border-left: 1px solid #c81523;
+
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    padding: 0 29px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    line-height: 47px;
+}
+
+.sk_con {
+    float: right;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    font-size: 14px;
+    margin-right: 46px;
+    line-height: 49px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+
+/* 列表页主体制作 */
+.sk_container {
+    height: 1200px;
+    /* background-color: pink; */
+}
+
+.sk_bd ul {
+    overflow: hidden;
+    float: left;
+    width: 291px;
+    height: 460px;
+    margin-right: 12px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul:nth-child(4n) {
+    margin: 0;
+}
+
+.sk_bd ul:hover {
+    border: 1px solid red;
+}
+
+.sk_bd ul li:nth-child(2) {
+    margin-left: 13px;
+}
+
+.sk_bd ul li:nth-child(3) {
+    margin-left: 13px;
+    margin-top: 8px;
+}
+
+.sk_bd ul li i:first-child {
+    color: red;
+    font-size: 24px;
+}
+
+.sk_bd ul li:nth-child(3) i:last-child {
+    margin-left: 8px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li:nth-child(4) {
+    margin: 12px 0 12px 13px;
+    line-height: 13px;
+}
+
+.sk_bd ul li:nth-child(4) div {
+    display: inline-block;
+    width: 133px;
+    height: 13px;
+    margin: 0 13px;
+    border-radius: 7px;
+    border: 1px solid red;
+}
+
+.sk_bd ul li:nth-child(4) div em {
+    display: inline-block;
+    width: calc(100% - 20px);
+    height: 100%;
+    background-color: red;
+    border-radius: 7px;
+}
+
+.sk_bd ul li:nth-child(5) {
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color: red;
+}

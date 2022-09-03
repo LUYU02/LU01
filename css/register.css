@@ -1,0 +1,143 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.red {
+    color: #c81235;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81235;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.registerarea {
+    height: 522px;
+    padding-top: 22px;
+    border: 1px solid #ccc;
+}
+
+.registerarea_hd {
+    height: 40px;
+    padding: 0 11px;
+    font-size: 14px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+}
+
+.registerarea_hd div {
+    display: inline-block;
+}
+
+.registerarea_hd div:first-child {
+    font-size: 18px;
+    color: #333333;
+}
+
+.registerarea_hd div:last-child {
+    float: right;
+}
+
+.registerarea_bd {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.registerarea_bd ul li {
+    margin-bottom: 20px;
+}
+
+.registerarea_bd ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+
+.registerarea_bd ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: #c81523;
+}
+
+.error_icon {
+    display: inline-block;
+    /* 文字和图片居中对齐 根据基线*/
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    margin-top: -2px;
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    display: inline-block;
+    /* 文字和图片居中对齐 根据基线*/
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background: url(../images/success.png) no-repeat;
+    margin-top: -2px;
+}
+
+.safe {
+    padding-left: 165px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    margin-left: 100px;
+}
+
+.agree input {
+    vertical-align: middle;
+}
+
+.agree div {
+    display: inline-block;
+}
+
+.agree div a {
+    color: aqua;
+}
+
+.registerarea_bd ul li:last-child .btn {
+    width: 200px;
+    height: 34px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 34px;
+}
